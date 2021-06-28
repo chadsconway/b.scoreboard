@@ -1,0 +1,21 @@
+{
+  "name": "bacarrat",
+  "version": "0.0.0",
+  "workspaces": [
+    "./packages/bacarrat_backend",
+    "./packages/bacarrat_frontend",
+    "./packages/bacarrat_views",
+    "./packages/bacarrat_data"
+  ],
+  "type": "module",
+  "scripts": {
+    "start": "node ./bacarrat_backend/bin/www.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "^4.3.1",
+    "express": "~4.16.1",
+    "lerna": "^4.0.0",
+    "morgan": "~1.9.1"
+  }
+}
